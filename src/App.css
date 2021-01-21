@@ -9,7 +9,6 @@
 
 body {
     font-family: 'Fraunces', serif;
-    background: #0059ff;
 }
 
 #quote-box {
@@ -28,7 +27,6 @@ body {
 }
 
 #quote-text {
-    color: #0059ff;
     text-align: center;
     width: 525px;
     height: auto;
@@ -38,7 +36,6 @@ body {
 }
 
 #quote-text > i {
-    color: #0059ff;
     font-size: 1.1em;
     margin-right: 0.4em;
 }
@@ -50,7 +47,6 @@ body {
 
 #author {
     font-family: 'Roboto', sans-serif;
-    color: #0059ff;
     display: flex;
     justify-content: flex-end;
     font-size: 1.2rem;
@@ -70,7 +66,6 @@ body {
 
 .social-media > a {
     margin-right: .5rem;
-    background: #0059ff;
     padding: .3rem .5rem;
     cursor: pointer;
     border-radius: 7px;
@@ -85,7 +80,6 @@ body {
 }
 
 #new-quote {
-    background: #0059ff;
     border: none;
     color: #fff;
     padding: .7rem 1rem;

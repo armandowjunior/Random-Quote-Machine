@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react';
 import Quotes from './components/Quotes';
-import Container from 'react-bootstrap/Container';
 
 import './App.css';
 
@@ -58,11 +57,10 @@ function App() {
   document.body.style.backgroundColor = bgColor; // change the body color of the page;
  
   return (
-    <Container fluid>
       <div className={fade ? 'fade': ''} onAnimationEnd={() => setFade(false)}>
         <Quotes handleClick={handleClick} quote={quote} author={author} bgColor={bgColor}/>
       </div>
-    </Container>
+
   );
 }
 

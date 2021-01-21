@@ -94,6 +94,11 @@ body {
     opacity: .7;
 }
 
-
-
+.fade {
+    animation: fade-in-keyframes 0.7s;
+  }
+  @keyframes fade-in-keyframes {
+    from {opacity: 0}
+    to {opacity: 1}
+  }
 

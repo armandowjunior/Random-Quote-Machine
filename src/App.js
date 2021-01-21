@@ -6,6 +6,7 @@ function App() {
   const [quote, setQuote] = useState('');
   const [author, setAuthor] = useState('');
   const [bgColor, setBgColor] = useState('');
+  const [fade, setFade] = useState(false);
 
   useEffect( () => { //Try to use await here later
     getQuote()
@@ -49,13 +50,16 @@ function App() {
   const handleClick = () => {
     getQuote();
     getColor();
+    setFade(true);
   };
 
   document.body.style.backgroundColor = bgColor; // change the body color of the page;
-
+ 
   return (
-    <div className="App" >
+    <div className={fade ? 'fade': ''} onAnimationEnd={() => setFade(false)}>
+
       <Quotes handleClick={handleClick} quote={quote} author={author} bgColor={bgColor}/>
+
     </div>
   );
 }

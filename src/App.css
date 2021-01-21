@@ -95,7 +95,7 @@ body {
 }
 
 .fade {
-    animation: fade-in-keyframes 0.7s;
+    animation: fade-in-keyframes 1s;
   }
   @keyframes fade-in-keyframes {
     from {opacity: 0}

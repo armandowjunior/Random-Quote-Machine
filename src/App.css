@@ -38,6 +38,8 @@ body {
 #quote-text > i {
     font-size: 1.1em;
     margin-right: 0.4em;
+    position: relative;
+    bottom: 10px;
 }
 
 #quote-text > #quote-right {
@@ -128,12 +130,14 @@ body {
     }
     
     #quote-text > i {
-        font-size: 0.55em;
+        font-size: 0.6em;
         margin-right: 0.2em;
+        position: relative;
+        bottom: 10px;
     }
     
     #quote-text > #quote-right {
-        font-size: 0.55em;
+        font-size: 0.6em;
         margin-left: 0.2em;
     }
     
